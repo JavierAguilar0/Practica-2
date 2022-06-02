@@ -2,9 +2,7 @@ import random
 import numpy as np
 import cv2
 #Distancias de los nodos
-distancias=np.array([random.randint(1, 100),random.randint(1, 100),random.randint(1, 100),
-                     random.randint(1, 100),random.randint(1, 100),random.randint(1, 100),
-                     random.randint(1, 100),random.randint(1, 100),random.randint(1, 100)])
+distancias=np.array([random.randint(1, 100),random.randint(1, 100),random.randint(1, 100),random.randint(1, 100),random.randint(1, 100),random.randint(1, 100),random.randint(1, 100),random.randint(1, 100),random.randint(1, 100)])
 #Nombres de los nodos
 nombres=np.array(['Casa','Juan Alvarez','Alcalde','Morelos','Enrique Diaz de Leon','Chapultepec'])
 #Conversion de los valores de enteros a string
